@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Colegio San Pedro - Huánuco</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+header{background:#0b3d91;color:white;padding:15px 20px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:10;flex-wrap:wrap}
+header h1{font-size:22px}
+nav{display:flex;gap:12px;flex-wrap:wrap}
+nav a{color:white;text-decoration:none;font-weight:bold;font-size:14px}
+.hero{background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),url('https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=1200');background-size:cover;background-position:center;color:white;text-align:center;padding:90px 20px}
+.hero h2{font-size:38px;margin-bottom:10px}
+.hero p{font-size:18px;max-width:700px;margin:auto}
+.btn{display:inline-block;background:#ffcc00;color:#000;padding:12px 25px;border-radius:25px;text-decoration:none;font-weight:bold;margin-top:20px}
+section{padding:50px 20px;max-width:1100px;margin:auto}
+h2{color:#0b3d91;font-size:28px;margin-bottom:15px;text-align:center}
+p{line-height:1.6;color:#333}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;margin-top:25px}
+.card{background:#f2f6ff;padding:25px;border-radius:15px;text-align:center}
+.card h3{margin-bottom:10px;color:#0b3d91}
+.galeria{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:15px;margin-top:25px}
+.galeria img{width:100%;height:180px;object-fit:cover;border-radius:12px}
+form{max-width:600px;margin:25px auto;display:flex;flex-direction:column;gap:12px}
+input,textarea{padding:12px;border:1px solid #ccc;border-radius:10px}
+button{background:#0b3d91;color:white;padding:13px;border:none;border-radius:10px;font-weight:bold;cursor:pointer}
+footer{background:#0b3d91;color:white;text-align:center;padding:20px}
+</style>
+</head>
+<body>
+
+<header>
+<h1>🎓 Colegio San Pedro - Huánuco</h1>
+<nav>
+<a href="#inicio">Inicio</a>
+<a href="#nosotros">Nosotros</a>
+<a href="#servicios">Servicios</a>
+<a href="#proyectos">Proyectos</a>
+<a href="#galeria">Galería</a>
+<a href="#contacto">Contáctanos</a>
+</nav>
+</header>
+
+<div class="hero" id="inicio">
+<h2>Educamos con valores, fe y excelencia</h2>
+<p>Formamos estudiantes líderes, responsables y felices en la ciudad de Huánuco. Educación inicial, primaria y secundaria.</p>
+<a class="btn" href="#contacto">¡Inscríbete Ahora!</a>
+</div>
+
+<section id="nosotros">
+<h2>Nosotros</h2>
+<p>Somos una institución educativa de Huánuco con más de 20 años formando niños y jóvenes. Nuestra misión es brindar una educación de calidad, con valores, respeto y amor por nuestra cultura huanuqueña. Contamos con docentes capacitados, aulas modernas y un ambiente seguro para aprender y crecer.</p>
+<div class="cards">
+<div class="card"><h3>🎯 Misión</h3><p>Formar estudiantes con valores y conocimientos para la vida.</p></div>
+<div class="card"><h3>👀 Visión</h3><p>Ser el mejor colegio de Huánuco, reconocido por su calidad.</p></div>
+<div class="card"><h3>❤️ Valores</h3><p>Respeto, responsabilidad, solidaridad y honestidad.</p></div>
+</div>
+</section>
+
+<section id="servicios" style="background:#f9f9f9">
+<h2>Servicios</h2>
+<div class="cards">
+<div class="card"><h3>📚 Inicial</h3><p>Estimulación temprana y aprendizaje con amor.</p></div>
+<div class="card"><h3>✏️ Primaria</h3><p>Matemática, Comunicación, Inglés, Computación y Arte.</p></div>
+<div class="card"><h3>🎓 Secundaria</h3><p>Preparación para la universidad y orientación vocacional.</p></div>
+<div class="card"><h3>💻 Computación</h3><p>Aulas de cómputo, internet y tecnología.</p></div>
+<div class="card"><h3>⚽ Deporte</h3><p>Fútbol, vóley, danza y educación física.</p></div>
+<div class="card"><h3>🚌 Movilidad</h3><p>Movilidad escolar segura en toda la ciudad.</p></div>
+</div>
+</section>
+
+<section id="proyectos">
+<h2>Proyectos</h2>
+<div class="cards">
+<div class="card"><h3>🌱 Biohuerto Escolar</h3><p>Aprendemos a sembrar y cuidar plantas.</p></div>
+<div class="card"><h3>📖 Feria del Libro</h3><p>Fomentamos la lectura con cuentos y teatro.</p></div>
+<div class="card"><h3>💃 Danzas de Huánuco</h3><p>Rescatamos nuestra cultura con los Negritos de Huánuco.</p></div>
+<div class="card"><h3>🤖 Feria de Ciencias</h3><p>Proyectos de ciencia y experimentos.</p></div>
+</div>
+</section>
+
+<section id="galeria" style="background:#f9f9f9">
+<h2>Galería de Fotos</h2>
+<div class="galeria">
+<img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600" alt="Estudiantes">
+<img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=600" alt="Clase">
+<img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600" alt="Niños">
+<img src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?w=600" alt="Graduación">
+<img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=600" alt="Colegio">
+<img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600" alt="Aula">
+</div>
+</section>
+
+<section id="contacto">
+<h2>Contáctanos</h2>
+<p style="text-align:center">Jr. Huánuco 123 - Huánuco, Perú | Tel: 062-123456 | WhatsApp: 999 999 999<br>Horario: Lunes a Viernes 7:30 a.m. - 1:30 p.m.</p>
+<form>
+<input type="text" placeholder="Tu nombre" required>
+<input type="email" placeholder="Tu correo" required>
+<input type="text" placeholder="Grado que te interesa">
+<textarea rows="4" placeholder="Tu mensaje..."></textarea>
+<button type="submit">Enviar Mensaje</button>
+</form>
+</section>
+
+<footer>
+<p>© 2026 Colegio San Pedro - Huánuco | Diana S. Gerónimo</p>
+</footer>
+
+</body>
+</html>
